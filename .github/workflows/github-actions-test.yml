@@ -7,5 +7,5 @@ jobs:
       - name: check out repository code
         uses: actions/checkout@v3
 
-      - name: print hello world
-        run: echo "Hello World"
+      - name: print hello.txt
+        run: echo "$(cat hello.txt)"
